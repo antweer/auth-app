@@ -7,7 +7,7 @@ import firebaseSetup from '../SECRETS.js';
 
 class App extends Component {
   componentWillMount() {
-    firebase.initializeApp({firebaseSetup})
+    firebase.initializeApp({ firebaseSetup });
   }
 
   render() {
